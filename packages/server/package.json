@@ -9,11 +9,13 @@
   "scripts": {
     "start": "bun run index.ts",
     "dev": "bun --watch run index.ts"
- },
+  },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
-    "dotenv": "^17.2.2"
+    "dotenv": "^17.2.2",
+    "openai": "^5.21.0",
+    "zod": "^4.1.9"
   }
 }
